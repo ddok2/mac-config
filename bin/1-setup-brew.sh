@@ -23,7 +23,6 @@ mas signin darkerkorean@gmail.com
 echo "Installing my apps from brewfile..."
 pushd "$HOME" || exit
 brew bundle --file=~/.mac-config/Brewfile
-popd || exit
 
 # install oh my zsh
 echo "Installing Oh My ZSH..."
@@ -32,3 +31,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # install oh-my-zsh theme
 echo "Install powerlevel10k..."
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"/themes/powerlevel10k
+
+popd || exit
