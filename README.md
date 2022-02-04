@@ -11,11 +11,6 @@ Clone this repository at user's home dir.
 git clone git@github.com:ddok2/mac-config.git ~/.mac-config
 ```
 
-### Homebrew
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
 ### Mac App Store
 Signin to the `Mac App Store`
 
