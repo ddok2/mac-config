@@ -11,7 +11,7 @@ Clone this repository at user's home dir.
 git clone git@github.com:ddok2/mac-config.git ~/.mac-config
 ```
 
-### Mac App Store
+#### Mac App Store
 Signin to the `Mac App Store`
 
 ### Run Scripts
