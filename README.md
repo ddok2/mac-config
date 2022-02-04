@@ -8,7 +8,7 @@ some useful script and configs.
 Clone this repository at user's home dir. 
 ```shell
 
-git clone this.url ~/.mac-config
+git clone git@github.com:ddok2/mac-config.git ~/.mac-config
 ```
 
 ### Homebrew
