@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/env bash
 
 DEV_PATH="$HOME"/Development
 
@@ -18,3 +18,7 @@ npm i yarn -g
 
 # Docker-compose Files
 git clone git@github.com:ddok2/docker-compose-files.git "$DEV_PATH"/docker
+
+# RocksDB@6.26.1
+# brew extract --version=6.26.1 rocksdb homebrew/cask
+# brew install rocksdb@6.26.1

@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/env bash
 
 # MacOS Preferences
 
@@ -17,7 +17,7 @@ defaults write com.apple.screencapture location ~/Desktop/screenshots
 
 # Github
 echo "Please check github setting before run this script."
-ssh-keygen -t rsa -C "sung@$(hostname -s)"
+ssh-keygen -t rsa -C "syna@iconloop.com"
 
 # Copy public key to Github.com
 cat ~/.ssh/id_rsa.pub
@@ -28,7 +28,7 @@ ssh -T git@github.com
 # Git global config
 echo "Setting git global config"
 git config --global user.name "Sungyub NA"
-git config --global user.email "darkerkorean@gmail.com"
+git config --global user.email "syna@iconloop.com"
 git config --global github.user ddok2
 git config --global github.token "your_token_here"
 
