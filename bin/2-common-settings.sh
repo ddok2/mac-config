@@ -15,6 +15,15 @@ chflags nohidden ~/Library
 mkdir ~/Desktop/screenshots
 defaults write com.apple.screencapture location ~/Desktop/screenshots
 
+# Set Hostname
+sudo scutil --set HostName SUNG.DEV
+
+# Change short user password policy
+pwpolicy getaccountpolicies | awk 'NR>1' > ~/Desktop/file.plist
+# change >> policyAttributePassword matches '^$|.{1,}+'
+pwpolicy setaccountpolicies ~/Desktop/file.plist
+passwd
+
 # Github
 echo "Please check github setting before run this script."
 ssh-keygen -t rsa -C "syna@iconloop.com"
