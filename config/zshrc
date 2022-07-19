@@ -58,7 +58,7 @@ alias dk='docker'
 alias dkc='docker-compose'
 source <(kubectl completion zsh)
 export PATH="/usr/local/opt/curl/bin:$PATH"
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+# export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 # GO LANG
 export GOROOT=/usr/local/var/homebrew/linked/go/libexec

@@ -7,46 +7,47 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "teamookla/speedtest"
 
-brew "archey"
+brew "act"
 brew "autoenv"
 brew "bat"
+brew "bzip2"
 brew "cmake"
 brew "gcc"
 brew "git"
 brew "git-flow"
 brew "go"
-brew "govendor"
 brew "jenv"
-brew "openssl@1.1"
+brew "jq"
+brew "lmdb"
 brew "mas"
 brew "nvm"
+brew "openjdk@8"
+brew "openjdk@11"
 brew "putty"
-brew "readline"
 brew "pyenv"
 brew "pyenv-virtualenv"
-brew "rust"
 brew "speedtest-cli"
 brew "telnet"
 brew "wget"
 brew "zlib"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-brew "golangci/tap/golangci-lint"
-brew "homebrew/cask/rocksdb@6.26.1"
 
-cask "adoptopenjdk8"
 cask "alfred"
 cask "android-file-transfer"
+cask "android-platform-tools"
 cask "appcleaner"
 cask "authy"
 cask "bartender"
 cask "datagrip"
 cask "docker"
+cask "github"
 cask "google-chrome"
 cask "gpg-suite"
 cask "intellij-idea"
 cask "iterm2"
 cask "keka"
+cask "macs-fan-control"
 cask "notion"
 cask "postman"
 cask "sourcetree"
@@ -59,10 +60,12 @@ cask "vmware-fusion"
 cask "zoom"
 
 mas "AdGuard for Safari", id: 1440147259
-mas "Amphetamine", id: 937984704
+mas "EasyRes", id: 688211836
 mas "Enpass", id: 732710998
 mas "GoodNotes", id: 1444383602
 mas "HP Smart", id: 1474276998
+mas "iMovie", id: 408981434
+mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
@@ -74,3 +77,4 @@ mas "Telegram", id: 747648890
 mas "TNEF's Enough", id: 986621173
 mas "Todoist", id: 585829637
 mas "카카오톡", id: 869223134
+mas "한컴오피스 한글 2014 VP 뷰어", id: 416746898
