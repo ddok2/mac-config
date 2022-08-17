@@ -11,6 +11,7 @@ mkdir -p "$GOPATH" "$GOPATH"/src "$GOPATH"/pkg "$GOPATH"/bin
 # Node.js
 nvm i 14
 nvm i 16
+nvm i 18
 nvm alias default 16
 
 npm i npm -g
